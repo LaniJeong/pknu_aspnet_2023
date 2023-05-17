@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>네비게이션 메뉴</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script> -->
+</head>
+<body>
+    <div>
+        <h2>열대과일</h2>
+        <!-- <ol>: 순서 번호 목록 / <li>: 순서 번호 -->
+        <ol>
+            과일
+            <li>망고</li>
+            <li>파파야</li>
+            <li>망고스틴</li>
+            <li>바나나
+                <ol>
+                    <li>베트남</li>
+                    <li>필리핀</li>
+                    <li>태국</li>
+                </ol>  
+            </li>
+        </ol>
+
+        <h2>노트북</h2>
+        <!-- <ol>: 순서가 없는 목록 / <li>: 목록 요소 -->
+        <ul>
+            
+            <li>삼성</li>
+            <li>LG</li>
+            <li>apple</li>
+                <ul>
+                    <li>macbook air</li>
+                    <li>macbook pro</li>
+                </ul>  
+            </li>
+            <li>DELL</li>
+        </ol>
+    </div>
+
+    <div>
+        <!-- <table>: 표 삽입 / <tr>: 표에 행 삽입 / <th>: -->
+            <!-- colspan: 열(칸) 늘리기 / rowspan: 행(칸) 늘리기-->
+        <table border="1">
+            <tr>
+                <th colspan="6">Solo Album</th>
+            </tr>
+            <tr>
+                <th >I.M</th>
+                <td>God Damn</td>
+                <td>Howlin'</td>
+                <td>Burn</td>
+                <td>Happy to Die</td>
+                <td>flower-ed</td>
+            </tr>
+            <tr>
+                <th>Kihyun</th>
+                <td>Youth</td>
+                <td>Stardust</td>
+                <td>Bad Liar</td>
+                <td>Where Is This love</td>
+                <td colspan="2">'Cause of You</td>
+            </tr>
+            <tr>
+                <th>Hyungwon</th>
+                <td>Lone Ranger</td>
+                <td>Mercy</td>
+                <td>Burning Up</td>
+                <td colspan="3">Wild Fire</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <video src="./IM_live.mp4" controls=""></video>
+        <audio src="./Kihyun_너의 모든 순간.mp3" controls=""></video>
+    </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>플렉스 레이아웃</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script> -->
+    <style>
+        * {
+            margin: 0; padding: 0;
+        }
+
+        .box {
+            background-color: gainsboro;
+            margin: 5px; padding: 5px;
+            width: 100px;
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            width: 600px;
+            background-color: aliceblue;
+            border: solid 2px #303030;
+            margin-bottom: 5px;
+            display: flex;  /* 플렉스 레이아웃 */
+        }
+
+        #option1 {
+            flex-direction: row;
+        }
+        #option2 {
+            flex-direction: row-reverse;
+        }
+        #option3 {
+            flex-direction: column;
+        }
+        #option4 {
+            flex-direction: column-reverse;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="option1" class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+    <div id="option2" class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+    <div id="option3" class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+    <div id="option4" class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+</body>
+</html>

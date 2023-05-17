@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>grid layout</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script> -->
+    <style>
+        @media screen and (max-width: 500px) {
+            body { background-color: cornflowerblue;}
+        }
+
+        @media screen and (min-width: 501px) and (max-width: 900px) {
+            body { background-color: blueviolet;}
+        }
+
+        @media screen and (min-width: 901px) {
+            body { background-color: chocolate;}
+        }
+
+        #wrap {
+            width: 800px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(4, 10px);
+        }
+
+        .box {
+            padding: 30px;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+        .box1 {
+            background-color: #3689ff;
+            grid-column: 1/4;       /* 1행 모든열 다 사용 */
+        }
+        .box2 {
+            background-color: #20c92e;
+            grid-row: 2/4;
+        }
+        .box3 {
+            background-color: #ff9019;
+            grid-row: 2/4;
+            grid-column: 2/4;
+        }
+        .box4 {
+            background-color: #0514ff;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <!--영역-->
+        <div class="box box1">box</div>
+        <div class="box box2">box</div>
+        <div class="box box3">box</div>
+        <div class="box box4">box</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>상대위치/절대위치</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script> -->
+    <style>
+        #container {
+            width: 500px; height: 300px;
+            border: solid 1px black;
+            position: relative;
+        }
+
+        .circle {
+            position: absolute;
+            width: 100px; height: 100px;
+            border: solid 1px black;
+            border-radius: 50%;
+        }
+
+        #red {
+            left: 10px; top: 10px;
+            background-color: red;
+        }
+
+        #green {
+            left: 10px; top: 10px;
+            background-color: green;
+        }
+
+        #blue {
+            right: 10px; top: 10px;
+            background-color: blue;
+        }
+
+        #yellow {
+            left: 10px; bottom: 10px;
+            background-color: yellow;
+        }
+
+        .top_bar {
+            background-color: aqua;
+            position: fixed;
+            left: 0; right: 0; top: 0;
+            height: 50px;
+        }
+
+        .left_bar {
+            background-color: blueviolet;
+            position: fixed;
+            left: 0; top: 50px; bottom: 0;
+            width: 50px;
+            z-index: 10;        /* 모니터화면을 z축으로 여러 레이어를 겹칠때 */
+        }
+    </style>
+</head>
+<body>
+    <div class="top_bar"></div>
+    <div class="left_bar"></div>
+    <h1>Dummy Title</h1>
+    <div id="container">
+        <div id="red" class="circle"></div>
+        <div id="green" class="circle"></div>
+        <div id="blue" class="circle"></div>
+        <div id="yellow" class="circle"></div>
+    </div>
+    <h1>Dummy Title</h1>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Layout</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script> -->
+    <style>
+        #header {
+            width: 800px;
+            margin: 0 auto;
+            background-color: beige;
+        }
+        #wrap{
+            width: 600px;
+            margin: 0 auto;
+            background-color: aliceblue;
+            overflow: hidden;
+        }
+        #aside {
+            width: 150px;
+            float: left;
+            background-color: darkviolet;
+        }
+        #content {
+            width: 450px;
+            float: right;
+            background-color: antiquewhite;
+        }
+
+        #footer {
+            width: 600px;
+            margin: 0 auto;
+            background-color: cornflowerblue;
+        }
+        .item {
+            color: cadetblue;
+        }
+        .options {
+            background-color: rgb(146, 100, 237);
+        }
+        /* 후손 선택자 */
+        #header h1{
+            font-size: smaller;
+        }
+        /* 자손선택자 */
+        #wrap > #aside > h2 {
+            color: white;
+        }
+        /* 요소에 마우스를 올렸을 때 처리될 디자인 */
+        h1:hover {
+            color: white;
+        }
+        input:focus {
+            width: 100rem;
+            border: solid 5px #03c75a;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>#header 영역</h1>
+    </div>
+    <div id="wrap">
+        <div id="aside">
+            <h2>#aside 영역</h2>
+        </div>
+        <div id="content">
+            <h2>#content 영역</h2>
+        </div>
+    </div>
+    <div id="footer">
+        <h2>#footer 영역</h2>
+    </div>
+
+    <form>
+        <input type="text">
+    </form>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Gradation</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script> -->
+    <script>
+        window.onload = function () {
+            var output = '';
+            for (var i = 0; i < 256; i++) {         // ???? 의미를 모르겠음
+                output += '<div></div>';
+            }
+            document.body.innerHTML = output;
+
+            var divs = document.querySelectorAll('div');
+            for (var i = 0; i < divs.length; i++) {
+                var div = divs[i];
+                div.style.height = '2px';
+                div.style.backgroundColor = 'rgb('+ i +', '+ i +', '+ i +')';
+            }
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

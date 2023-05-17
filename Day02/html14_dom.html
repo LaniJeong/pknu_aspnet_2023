@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>DOM</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script> -->
+    <style>
+        h1 {
+            background-color: red;
+        }
+    </style>
+    <script>
+        // 객체에 접근한다 -> document상에 내가 원하는 요소를 찾아내는 것
+        window.onload = function() {
+            // DOM
+            document.querySelector('h1').style.backgroundColor = 'violet';
+            // subtitle아이디를 가진 h2 요소(객체)로 할당
+            var subtitle = document.getElementById('subtitle');
+            subtitle.style.color = 'Orange';
+            subtitle.style.backgroundColor = 'Red';
+            subtitle.innerHTML = "자바스크립트에서 변경";
+        
+            var headers = document.querySelectorAll('h3');
+            for (var i = 0; i < headers.length; i++) {
+                var header = headers[i];
+                header.style.color = '#ffff00';
+                header.style.backgroundColor = 'purple';
+                header.innerHTML = 'Loop' + (i + 1);
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Process</h1>
+    <h2 id="subtitle">Subprocess</h2>
+
+    <div>
+        <h3>first</h3>
+        <h3>second</h3>
+        <h3>third</h3>
+    </div>
+</body>
+</html>

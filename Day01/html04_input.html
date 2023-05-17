@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>입력태그</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script> -->
+</head>
+<body>
+    <!-- action(전송위치)=".": 자기 자신에게 데이터 보냄 
+        method(전송방식)="get": 주소에 데이터를 입력해서 전달 / "post": 주소변경 없이 비밀스럽게 데이터 전달-->
+    <form method="get"> 
+        <!-- 입력태그 -->
+        <input type="text" id="tt" name="search" value="텍스트"><br>
+        <input type="password" name="pwd" value="12345"><br>
+        <input type="checkbox" name="male">남성 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" name="female">여성 <br>
+        <input type="radio" name="gender" value="male"> 남성 <input type="radio" name="gender" value="fem">여성<br>
+        <input type="file" name="photo"><br>
+        <input type="image" src=""><br>
+        <input type="color" value="#FF0000"><br>
+        <input type="date" value="2015-05-14"><br>
+        <input type="email" value="lani03774@gmail.com"><br>
+        <select>
+            <option>--멤버--</option>
+            <option>셔누</option>
+            <option>민혁</option>
+            <option>기현</option>
+            <option>형원</option>
+            <option>주헌</option>
+            <option>창균</option>
+            
+        </select>
+        <!-- 히든태그 -->
+        <textarea name="content" rows="10"></textarea>
+        <input type="hidden" name="userid" value="monsta X"><br>
+        <input type="submit" value="승인"> 
+        <input type="button" value="버튼"> 
+        <input type="reset" value="초기화"> 
+    </form>
+</body>
+</html>

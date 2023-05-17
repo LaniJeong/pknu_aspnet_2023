@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>javascript</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script> -->
+    <link rel="stylesheet" media="scre" href="main.css">
+    <style>
+        /* 내부스타일 */
+    </style>
+    <script>
+        // 한줄 주석
+        /*
+         여러줄 주석
+        */
+       /*alert(1 + 30); alert + debugging == alerugging*/
+       console.log("Helllo, console log");
+       console.log("Second log!");
+       var a = 1;
+       var b = 1;
+       console.log(a == b);
+       console.log(a === b);
+       let c = 1.5;         // 로컬 변수 선언
+       console.log(c)
+
+    var radius = 10;
+    const pi = 3.141592;
+    alert('원의 크기는 ' + radius * radius * pi);
+
+    function test() {
+        var i = 10;
+        return i * pi;
+    }
+
+    alert(test());
+    // javascript 특이한 함수 선언방식
+    var test2 = function() {
+        alert('test2')
+        alert('함수선언이 조금 다릅니다.');
+    }
+
+    test2();
+
+    //객체
+    var product = {
+        name: 'love',
+        type: 'album',
+        성분: 'p;ㅠ',
+        made: 'Korea',
+        imported: true,
+        price,150514,
+    }
+
+    console.log(product.name);
+    console.log(product['name']);
+    console.log(product.성분);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
