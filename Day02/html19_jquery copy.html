@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>jquery</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script> -->
+    <!-- <script src = "./js/jquery-3.7.0.min.js"></script> -->
+    <!-- CDN방식으로 js파일을 다운로드 할 필요가 없음 -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+            integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd01/g="
+            crossorigin="anonymous"></script>
+    <script>
+        // 전통 자바스크립트로 온로드할 때 방식
+        window.onload = function () {
+            var headers = document.querySelectorAll('h1');
+            for (var i = 0; i <headers.length; i++) {
+                var header = headers[i];
+                header.style.color = 'red';
+                header.style.backgroundColor = 'black';
+            }
+        }
+        // jQuery로 온로드 할 때 방식
+        $(document).ready(function () {
+            $('h1').css('color', 'blue');
+            $('h1').css('background-color','gray')
+
+            var src = $('script').attr('src');
+            console.log(src);
+            var int = $('script').attr('crossorigin');
+            console.log(int); 
+        });
+    </script>
+</head>
+<body>
+    <h1>Title</h1>
+    <h1>Title</h1>
+    <h1>Title</h1>
+</body>
+</html>

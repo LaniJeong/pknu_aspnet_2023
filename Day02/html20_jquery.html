@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>jquery</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+            integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+            crossorigin="anonymous"></script>
+    <script>
+        // jquery로 온로드할 때 방식
+        $(document).ready(function () {
+            // 여기에 로직을 적으면 됨
+            $('img').attr('alt', 'jQuery로 만든 이미지');
+            $('img').attr('src', 'https://picsum.photos/100/100');
+            $('img').attr('width', '150');
+            // 둘 다 동일한 기능
+            $('img').attr({
+                alt: 'jQuery json으로 정리한 속성값',
+                src: function(index) {
+                    var width = (index + 1) * 100;
+
+                    return 'https://picsum.photos/' + width + '/100'
+                },
+            });
+        });
+    </script>
+</head>
+<body>
+    <img>
+    <img>
+    <img>
+</body>
+</html>

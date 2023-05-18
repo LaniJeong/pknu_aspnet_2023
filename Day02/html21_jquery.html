@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>jquery</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+            integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+            crossorigin="anonymous"></script>
+    <script>
+        // jquery로 온로드할 때 방식
+        $(document).ready(function () {
+            // 여기에 로직을 적으면 됨
+            $('.box').css({
+                float: 'left',
+                'backgroundColor': 'orange',
+                width: '10px',
+                height: '10px',
+                margin: '10px',
+            }).on('click', function() {
+                $(this).css('background-color', 'red');
+            }).on('mouseenter', function() {
+                $(this).css({
+                    'background-color': 'blue',
+                    'border-radius': '50%'
+                });
+            }).on('mouseleave', function() {
+                $(this).css({
+                    'background-color':'orange',
+                    'border-radius': '10%'
+                })
+            });
+        });
+        
+    </script>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</body>
+</html>

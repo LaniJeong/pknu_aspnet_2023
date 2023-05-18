@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>jquery</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+          crossorigin="anonymous">
+          <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+            integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+            crossorigin="anonymous"></script>
+    <script>
+        // jquery로 온로드할 때 방식
+        $(document).ready(function () {
+            // 여기에 로직을 적으면 됨
+        });
+    </script>
+</head>
+<body>
+   <!-- TOP메뉴 영역 -->
+   <!-- <div id="header" data-bs-theme="dark" class="fixed-top"> -->
+    <div id="header" data-bs-theme="dark"></div>>
+        <div class="collapse text-bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 py-3">
+                        <h4>About</h4>
+                        <p class="text-body-secondary">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, libero accusamus deleniti, 
+                            fugit vero numquam autem incidunt delectus odit ratione quo labore et facere neque, explicabo ipsum!
+                            Inventore accusantium amet soluta harum tenetur sed error animi reprehenderit sapiente id.
+                            Vero possimus illo ducimus voluptatibus modi itaque omnis sit asperiores veniam?
+                        </p>
+                    </div>
+                    <div class="col-sm-4 py-3">
+                        <h4>Contact</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white">Twitter</a></li>
+                            <li><a href="#" class="text-white">Facebook</a></li>
+                            <li><a href="#" class="text-white">Email me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+   <div class="navbar navbar-dark bg-dark shadow-sm" >
+    <div class="container">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+            <i class="bi bi-xbox"></i>&nbsp;
+            <b>Album</b>
+        </a>
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse"
+            data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="true"
+            aria-albel="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+   </div>
+
+   <!-- Main영역 -->
+   <div id="main">
+    <div id="section" class="py-5 text-center container">
+        <div class="row py-5">
+            <div class="col-6 mx-auto">
+                <h1 class="fw-light">Album example</h1>
+                <p class="lead text-body-secondary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia vero sequi suscipit quo fugit placeat esse voluptatem quisquam quasi molestiae!
+                </p>
+                <p>
+                    <a href="#" class="btn btn-primary my-2">Main action</a>
+                    <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+                </p>
+            </div>
+        </div>
+    </div>
+   </div>
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+            integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+            crossorigin="anonymous"></script>
+</body>
+</html>

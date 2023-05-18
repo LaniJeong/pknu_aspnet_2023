@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>DOM</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script> -->
+    <script>
+        window.onload
+        window.onload = function () {
+            document.body.setAttribute('id', 'test');       // 기본 정적인 html에는 없던 속성을 추가가능
+            
+            var val = document.body.getAttribute('id');     // html에서 요소의 속성에 대한 값을 가져올 수 있음
+            console.log(val);
+
+            var title = document.getElementById('title');
+            var title_class = title.getAttribute('class');
+            console.log(title_class);
+            title.setAttribute('class','jsclass');
+        }
+
+    </script>
+    <style>
+        .testclass {
+            background-color: cadetblue;
+        }
+        .jsclass {
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <h3 id="title" class="testclass">Title</h3>
+</body>
+</html>
