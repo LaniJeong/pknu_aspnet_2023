@@ -4,6 +4,12 @@
     // 뷰백
     ViewData["Title"] = "Index"; // @는 Razor 문법(C# 문법)
 }
+@{
+    var startPage = ViewBag.StartPage;
+    var endPage = ViewBag.EndPage;
+    var page = ViewBag.Page;
+    var totalPage = ViewBag.Totalpage;
+}
 
 <!-- Shared밑에 있는 _Notification.cshtml을 index.cshtml에 포함시킴 -->
 <partial name="_Notification"/>
@@ -70,3 +76,39 @@
         }
     </tbody>
 </table>
+<!-- 페이징 추가 -->
+<div class="container">
+    <nav>
+        <ul class="pagenation justify-content-center">
+            @if (page > 1)  // 바로 앞페이지로 이동 
+            {
+                <li class="page-item"><a class="page-link" href="?page=@(page-1)">Prev</a></li>
+            } else
+            {
+                <li class="page-item disabled"><a class="page-link" href="?page=@(page-1)">Prev</a></li>
+            }
+
+            @*반복문 1~n페이지 번호*@
+            @for (var icount = startPage; icount <= endPage; icount++)
+            {
+                if (icount == page)
+                {
+                    @*현재페이지*@
+                    <li class="page-item active"><a class="page-link" href="?page-@icount">@icount</a></li>
+                } else
+                {
+                    <li class="page-item"><a class="page-link" href="?page-@icount">@icount</a></li>
+                }
+            }
+
+            @if (page < totalPage)  // 바로 앞페이지로 이동
+            {
+                <li class="page-item"><a class="page-link" href="?page=@(page-1)">Next</a></li>
+            }
+            else
+            {
+                <li class="page-item disabled"><a class="page-link" href="?page=@(page-1)">Next</a></li>
+            }
+        </ul>
+    </nav>
+</div>
