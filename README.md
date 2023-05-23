@@ -29,4 +29,4 @@ ASP.NET 학습 라포지토리
 
 ## 5일차
 - ASP.NET MVC
-  - ASP.NET 기본
+  - ASP.NET 프로젝트
