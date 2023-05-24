@@ -1,0 +1,117 @@
+﻿@model IEnumerable<aspnet02_boardapp.Models.Board>
+
+@{
+    // 뷰백
+    ViewData["Title"] = "게시판"; // @는 Razor 문법(C# 문법)
+}
+@{
+    var startPage = ViewBag.StartPage;
+    var endPage = ViewBag.EndPage;
+    var page = ViewBag.Page;
+    var totalPage = ViewBag.Totalpage;
+}
+
+<!-- Shared밑에 있는 _Notification.cshtml을 index.cshtml에 포함시킴 -->
+<partial name="_Notification"/>
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-8">
+            <h2 class="text-primary">게시판 리스트</h2>
+        </div>
+        <div class="col-4 text-end">
+            @if (SignInManager)
+            <a asp-asp-controller="Board" asp-action="Create" class="btn btn-sm-primary">
+                <i class="bi bi-file-earmark-plus-fill"></i>&nbsp; 글쓰기
+            </a>
+        </div>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReadCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PostDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserName)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id" 
+                            class="link-primary link-offset-2 link-underline-opacity-0 link-underline-opacity-50-hover">
+                            @Html.DisplayFor(modelItem => item.Title)
+                    </a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReadCount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PostDate)
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn">
+                        <i class="bg-info bi-"삭제></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<!-- 페이징 추가 -->
+<div class="container">
+    <nav>
+        <ul class="pagenation justify-content-center">
+            @if (page > 1)  // 바로 앞페이지로 이동 
+            {
+                <li class="page-item"><a class="page-link" href="?page=@(page-1)">Prev</a></li>
+            } else
+            {
+                <li class="page-item disabled"><a class="page-link" href="?page=@(page-1)">Prev</a></li>
+            }
+
+            @*반복문 1~n페이지 번호*@
+            @for (var icount = startPage; icount <= endPage; icount++)
+            {
+                if (icount == page)
+                {
+                    @*현재페이지*@
+                    <li class="page-item active"><a class="page-link" href="?page-@icount">@icount</a></li>
+                } else
+                {
+                    <li class="page-item"><a class="page-link" href="?page-@icount">@icount</a></li>
+                }
+            }
+
+            @if (page < totalPage)  // 바로 앞페이지로 이동
+            {
+                <li class="page-item"><a class="page-link" href="?page=@(page-1)">Next</a></li>
+            }
+            else
+            {
+                <li class="page-item disabled"><a class="page-link" href="?page=@(page-1)">Next</a></li>
+            }
+        </ul>
+    </nav>
+</div>
