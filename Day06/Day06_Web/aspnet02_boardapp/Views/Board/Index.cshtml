@@ -20,7 +20,7 @@
             <h2 class="text-primary">게시판 리스트</h2>
         </div>
         <div class="col-4 text-end">
-            @if (SignInManager)
+            @if (SignInManager.)
             <a asp-asp-controller="Board" asp-action="Create" class="btn btn-sm-primary">
                 <i class="bi bi-file-earmark-plus-fill"></i>&nbsp; 글쓰기
             </a>
@@ -72,6 +72,7 @@
                     @Html.DisplayFor(modelItem => item.PostDate)
                 </td>
                 <td>
+                    @if (signInManager.IsSignedIn(User) && item.UserName == User.Identity.Name)
                     <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn">
                         <i class="bg-info bi-"삭제></i></a>
                 </td>
