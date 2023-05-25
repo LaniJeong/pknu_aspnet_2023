@@ -102,10 +102,50 @@ namespace aspnet02_boardapp.Controllers
         }
 
         [HttpGet]
-        public IActionResult Profile(string userName)
+        public async Task<IActionResult> Profile(string userName)
         {
             Debug.WriteLine(userName);
-            return View();
+
+            var curUser = await _userManager.FindByNameAsync(userName);
+
+            if (curUser != null)
+            {
+                TempData["error"] = "사용자가 없습니다.";
+                return RedirectToAction("Index", "Home");
+            }
+
+            var mode = new RegisterModel()
+            {
+                Email = curUser.Email,
+                PhoneNumber = curUser.PhoneNumber,
+            };
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Profile(RegisterModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = await _userManager.FindByNameAsync(model.Email);
+
+                user.PhoneNumber = model.PhoneNumber;
+                user.Email = model.Email;
+                user.PasswordHash = _userManager.PasswordHasher.HashPassword(user, model.Password);
+                var result = await _userManager.UpdateAsync(user);
+
+                if (result.Succeeded)
+                {
+                    await _signInManager.SignInAsync(user, isPersistent: false);
+                    TempData["succeed"] = "프로필 변경 성공";
+                    return RedirectToAction("Index", "Home");
+                };
+
+                user.PasswordHash = _userManager.PasswordHasher.HashPassword(user, model.Password);     // 비밀번호 변경은 어렵다
+
+                var result = await _userManager.UpdateAsync(user, );
+            }
         }
     }
 }
