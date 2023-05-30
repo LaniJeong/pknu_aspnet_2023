@@ -7,6 +7,7 @@
 @*
     회원가입, 로그인, 게시판 모든 화면에서 로그인관련 객체를 사용하기 위해서
 *@
-
 @inject SignInManager<IdentityUser> signInManager
 @inject UserManager<IdentityUser> userManager
+@inject RoleManager<IdentityRole> roleManager
+@* 권한확인 추가 *@

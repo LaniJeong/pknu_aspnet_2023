@@ -1,9 +1,8 @@
 ﻿@model aspnet02_boardapp.Models.Board
 
 @{
-    ViewData["Title"] = "글수정";
+    ViewData["Title"] = "게시판 글수정";
 }
-
 
 <div class="container p-3">
     <div class="row pt-4">
@@ -23,9 +22,9 @@
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <input type="hidden" asp-for="UserId" />
                 @*<div class="form-group">
-                    <label asp-for="UserId" class="control-label"></label>
-                    <input asp-for="UserId" class="form-control" />
-                    <span asp-validation-for="UserId" class="text-danger"></span>
+                <label asp-for="UserId" class="control-label"></label>
+                <input asp-for="UserId" class="form-control" />
+                <span asp-validation-for="UserId" class="text-danger"></span>
                 </div>*@
                 <div class="form-group">
                     <label asp-for="UserName" class="control-label"></label>

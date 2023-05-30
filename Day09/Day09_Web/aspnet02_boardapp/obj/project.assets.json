@@ -10019,11 +10019,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\source\\pknu_aspnet_2023\\Day07\\Day07_Web\\aspnet02_boardapp\\aspnet02_boardapp.csproj",
+      "projectUniqueName": "C:\\source\\pknu_aspnet_2023\\Day09\\Day09_Web\\aspnet02_boardapp\\aspnet02_boardapp.csproj",
       "projectName": "aspnet02_boardapp",
-      "projectPath": "C:\\source\\pknu_aspnet_2023\\Day07\\Day07_Web\\aspnet02_boardapp\\aspnet02_boardapp.csproj",
+      "projectPath": "C:\\source\\pknu_aspnet_2023\\Day09\\Day09_Web\\aspnet02_boardapp\\aspnet02_boardapp.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\source\\pknu_aspnet_2023\\Day07\\Day07_Web\\aspnet02_boardapp\\obj\\",
+      "outputPath": "C:\\source\\pknu_aspnet_2023\\Day09\\Day09_Web\\aspnet02_boardapp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

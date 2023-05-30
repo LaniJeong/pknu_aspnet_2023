@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace aspnet02_boardapp.Data
 {
-    public class ApplicationDbContext : IdentityDbContext       // 1. ASP.NET Identity: DBContext -> Identity DbContext 쓰는것과 동일
+    public class ApplicationDbContext : IdentityDbContext // 1. ASP.NET Identity : DbContext -> IdentityContext 결국 DbContext 쓰는것하고 동일
     {
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {

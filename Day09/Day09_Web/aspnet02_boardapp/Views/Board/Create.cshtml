@@ -20,15 +20,15 @@
         <div class="col-md">
             <form asp-action="Create">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <input type="hidden" asp-for="UserId" value="@User.Identity.Name"/>
-                @*<div class="form-group">      // 유저 아이디와 유저네임 동일해 주석
-                    <label asp-for="UserId" class="control-label"></label>
-                    <input asp-for="UserId" class="form-control" />
-                    <span asp-validation-for="UserId" class="text-danger"></span>
+                <input type="hidden" asp-for="UserId" value="@User.Identity.Name" />
+                @*<div class="form-group"> // 유저아이디/유저네임이 동일하니까 주석처리
+                <label asp-for="UserId" class="control-label"></label>
+                <input asp-for="UserId" class="form-control" value="" readonly />
+                <span asp-validation-for="UserId" class="text-danger"></span>
                 </div>*@
                 <div class="form-group">
                     <label asp-for="UserName" class="control-label"></label>
-                    <input asp-for="UserName" class="form-control" />
+                    <input asp-for="UserName" class="form-control" value="@User.Identity.Name" readonly />
                     <span asp-validation-for="UserName" class="text-danger"></span>
                 </div>
                 <div class="form-group">
