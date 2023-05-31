@@ -1,0 +1,38 @@
+﻿@model aspnet02_boardapp.Models.CreateRoleModel
+
+@{
+    ViewData["Title"] = "권한생성";
+}
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-8">
+            <h4 class="text-primary">권한생성</h4>
+        </div>
+        <div class="col-4 text-end">
+        </div>
+    </div>
+</div>
+<hr />
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <form asp-action="CreateRole" method="post">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="RoleName"></label>
+                    <input asp-for="RoleName" class="form-control" />
+                    <span asp-validation-for="RoleName" class="text-danger"></span>
+                </div>
+                <br />
+                <button type="submit" class="btn btn-sm btn-primary">
+                    <span class="bi bi-pin-angle"></span>&nbsp;권한생성
+                </button>
+                <a asp-action="ListRoles" class="btn btn-sm btn-secondary">
+                    <i class="bi bi-list-stars"></i>&nbsp;권한목록
+                </a>
+            </form>
+        </div>
+    </div>
+</div>

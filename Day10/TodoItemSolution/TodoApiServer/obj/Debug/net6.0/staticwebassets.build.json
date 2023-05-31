@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "UlZcGs7Z5d2f2zAijL7+I+ykQVbh6SbbFHlUoHIzlbk=",
+  "Source": "TodoApiServer",
+  "BasePath": "_content/TodoApiServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

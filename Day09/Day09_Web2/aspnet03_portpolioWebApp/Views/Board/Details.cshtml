@@ -1,0 +1,74 @@
+﻿@model aspnet02_boardapp.Models.Board
+
+@{
+    ViewData["Title"] = "글상세";
+    Layout = "~/Views/Shared/_NewLayout.cshtml";
+}
+
+<div style="padding: 50px;" class="mt-5">
+    <div class="container p-3">
+        <div class="row pt-4">
+            <div class="col-8">
+                <h4 class="text-primary">게시판 글상세</h4>
+            </div>
+            <div class="col-4 text-end">
+            </div>
+        </div>
+    </div>
+    <hr />
+
+    <div>
+        <dl class="row">
+            @*<dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UserId)
+            </dt>*@
+            @*<dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UserId)
+            </dd>*@
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.UserName)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.UserName)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Title)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Title)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.ReadCount)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.ReadCount)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.PostDate)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.PostDate)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Contents)
+            </dt>
+            <dd class="col-sm-10">
+                <!-- 사용규칙 대문자 M으로 변경할 것! -->
+                @Html.Raw(@Model.Contents)
+            </dd>
+        </dl>
+    </div>
+    <div class="mt-3 text-end">
+        @if (signInManager.IsSignedIn(User) && Model.UserName == User.Identity.Name)
+        {
+            <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-sm btn-primary">
+                <i class="bi bi-pencil"></i>&nbsp;수정
+            </a>
+        }
+        &nbsp;
+        <a asp-controller="Board" asp-action="Index" class="btn btn-sm btn-success">
+            <i class="bi bi-list-ol"></i>&nbsp;목록
+        </a>
+    </div>
+
+</div>

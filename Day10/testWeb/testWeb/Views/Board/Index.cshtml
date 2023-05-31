@@ -1,0 +1,135 @@
+﻿@model IEnumerable<aspnet02_boardapp.Models.Board>
+
+@{
+    ViewData["Title"] = "게시판"; // @는 Razor 문법(C# 문법)
+    Layout = "~/Views/Shared/_NewLayout.cshtml";
+}
+
+@{
+    // HTML 화면에서 사용하기 위한 선언 == ViewData, TempData 등과 동일한 역할
+    var startPage = ViewBag.StartPage;
+    var endPage = ViewBag.EndPage;
+    var page = ViewBag.Page;
+    var totalPage = ViewBag.TotalPage;
+    var startCount = ViewBag.StartCount; // 230525 게시판 글번호 노출 위해서 추가
+    int boardNum = startCount; // 페이지 1, 11, ... 으로 시작
+}
+
+<!-- _Notification.cshtml을 index.cshtml에 포함시키는 것-->
+<Partial name="_Notification" />
+
+<div style="padding: 50px;" class="mt-5">
+    <div class="container p-3">
+        <div class="row pt-4">
+            <div class="col-8">
+                <h2 class="text-primary">게시판 리스트</h2>
+            </div>
+            <div class="col-4 text-end">
+                @if (signInManager.IsSignedIn(User))
+                {
+                    <a asp-asp-controller="Board" asp-action="Create" class="btn btn-sm-primary">
+                        <i class="bi bi-file-earmark-plus-fill"></i>&nbsp; 글쓰기
+                    </a>
+                }
+            </div>
+        </div>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    번호
+                </th>
+                @*<th> 아이디와 이름이 동일하므로 화면에 미노출 => 주석 처리
+                @Html.DisplayNameFor(model => model.UserId)
+                </th>*@
+                <th>
+                    @Html.DisplayNameFor(model => model.UserName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ReadCount)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PostDate)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @boardNum
+                    </td>
+                    @*<td>
+                @Html.DisplayFor(modelItem => item.UserId)
+                </td>*@
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserName)
+                    </td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="link-primary link-offset-2 link-underline-opacity-0 link-underline-opacity-50-hover">@Html.DisplayFor(modelItem => item.Title)</a>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ReadCount)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PostDate)
+                    </td>
+                    <td>
+                        @if (signInManager.IsSignedIn(User) && (item.UserName == User.Identity.Name || User.IsInRole("Admin")))
+                        {
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-warning">
+                                <i class="bi bi-trash3"></i>&nbsp;삭제
+                            </a>
+                        }
+                    </td>
+                </tr>
+                boardNum++; // 230525 @ 쓰는 이유는 C# 내용을 화면에 노출 시키기 위해서 쓰는거! boardNum은 그냥 foreach 돌면서 1씩 증가만 하면 되기 때문에 @ 안쓰고 증가처리만 함.
+            }
+        </tbody>
+    </table>
+
+    <!-- 페이징 추가 -->
+    <div class="container">
+        <nav>
+            <ul class="pagination justify-content-center">
+                @if (page > 1) // 바로 앞페이지로 이동
+                {
+                    <li class="page-item"><a class="page-link" href="?page=@(page-1)">Prev</a></li>
+                }
+                else
+                {
+                    <li class="page-item disabled"><a class="page-link" href="?page=@(page-1)">Prev</a></li>
+                }
+
+                @for (var icount = startPage; icount <= endPage; icount++)
+                {
+                    if (icount == page)
+                    {
+                        <li class="page-item active"><a class="page-link" href="?page=@icount">@icount</a></li>
+                    }
+                    else
+                    {
+                        <li class="page-item"><a class="page-link" href="?page=@icount">@icount</a></li>
+                    }
+                }
+
+                @if (page < totalPage) // 다음 페이지로 이동
+                {
+                    <li class="page-item"><a class="page-link" href="?page=@(page+1)">Next</a></li>
+                }
+                else
+                {
+                    <li class="page-item disabled"><a class="page-link" href="?page=@(page+1)">Next</a></li>
+                }
+            </ul>
+        </nav>
+    </div>
+
+</div>

@@ -1,0 +1,69 @@
+﻿@model aspnet02_boardapp.Models.EditRoleModel
+@{
+    ViewData["Title"] = "권한편집";
+    Layout = "~/Views/Shared/_NewLayout.cshtml";
+}
+
+<div style="padding: 50px;" class="mt-5">
+    <div class="container p-3">
+        <div class="row pt-4">
+            <div class="col-8">
+                <h4 class="text-primary">권한편집</h4>
+            </div>
+            <div class="col-4 text-end">
+            </div>
+        </div>
+    </div>
+    <hr />
+
+    <form method="post" asp-action="EditRole" class="mt-3">
+        <div class="form-group row">
+            <label asp-for="Id" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="Id" disabled class="form-control" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <label asp-for="RoleName" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="RoleName" class="form-control" />
+                <span asp-validation-for="RoleName" class="text-danger"></span>
+            </div>
+        </div>
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="form-group row">
+            <div class="col-sm-10">
+                <button type="submit" class="btn btn-sm btn-primary">
+                    <span class="bi bi-check-circle"></span>&nbsp;권한갱신
+                </button>
+                <a asp-action="ListRoles" class="btn btn-sm btn-secondary">
+                    <i class="bi bi-list-stars"></i>&nbsp;권한목록
+                </a>
+            </div>
+        </div>
+
+        <div class="card mt-3 mb-3">
+            <div class="card-header">
+                <h4 class="text-primary">이 권한을 부여받은 사용자</h4>
+            </div>
+            <div class="card-body">
+                @if (Model.Users.Any())
+                {
+                    foreach (var user in Model.Users)
+                    {
+                        <h5 class="card-title">@user</h5>
+                    }
+                }
+                else
+                {
+                    <h5 class="card-title">사용자 없음</h5>
+                }
+            </div>
+            <div class="card-footer">
+                <a class="btn btn-sm btn-primary" asp-action="EditUsersInRole"
+                   asp-controller="Admin" asp-route-roleId="@Model.Id">현재 권한 할당/삭제</a>
+                @*<a href="#" class="btn btn-danger">Delete</a>*@
+            </div>
+        </div>
+    </form>
+</div>

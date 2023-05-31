@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\WebSites\IoTPortfolioWeb</_PublishTargetUrl>
+    <History>True|2023-05-30T06:49:40.9474197Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>server=localhost%3bport=3306%3bdatabase=aspnet%3buser=root%3bpassword=12345%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="aspnet02_boardapp.Data.ApplicationDbContext">
+      <Value>server=localhost%3bport=3306%3bdatabase=aspnet%3buser=root%3bpassword=12345%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

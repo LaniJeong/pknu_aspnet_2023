@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <!-- utf-8 소문자로 바꿨음.. HTML 대소문자 구분 안하지만 대문자 거의 안씀! 웬만하면 소문자로 쓸 것.. 실무에서 적용되는 사항임 ->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- description / author / preconnect 지금 안쓸거라서 주석처리-->
+    <!--meta name="description" content="">
+    <meta name="author" content=""-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- 한글 폰트 조정 위해서 나눔고딕 추가 => 구글폰트에서 링크 가져다쓰면 됨! -->
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <title>@ViewData["Title"] - IoT 포트폴리오 웹앱</title>
+
+    <!-- Bootstrap 5 CDN // 기존 _Layout.cshtml에서 가져다쓰려고 했는데 안되서 기존걸로 다시 바꿈 -->
+    @*<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">*@
+    <link rel="stylesheet" href="~/themes/seo_dream/vendor/bootstrap/css/bootstrap.min.css" />
+
+    <!-- Additional CSS Files -->
+    <!-- 테마 가져다 쓸 때 기존에 적용되어있는 상대경로 수정 하는 방법
+        1. 기존 경로 우선 복사해둠 ( assets/css/fontawesome.css )
+        2. ~/로 경로 찾기
+        3. 탭 누르는 순간 기존 경로 다 사라지기 때문에 위에 복사해둔 경로 정보 보고 그대로 찾아가면 됨
+        4. 첫번째 거 하고 나면 나머지는 ~/themes/seo_dream/ 이거만 복사해서 앞에 붙여넣어주기
+        5. 4번 방법으로 하고 나서는 마지막에 ss 정도만 지워보고 ctrl+space 눌러서 경로 뜨는지 확인!     
+    -->
+    <link rel="stylesheet" href="~/themes/seo_dream/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="~/themes/seo_dream/assets/css/templatemo-seo-dream.css">
+    <link rel="stylesheet" href="~/themes/seo_dream/assets/css/animated.css">
+    <link rel="stylesheet" href="~/themes/seo_dream/assets/css/owl.css">
+
+    <!-- 기존 사이트용 추가 CSS // 기존 _Layout.cshtml에서 가져다씀 -->
+    <!--WYSIWYG 에디터 링크-->
+    <link rel="stylesheet" href="~/lib/trumbowyg/ui/trumbowyg.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <!-- Toast 메세지창 js 라이브러리용 CSS -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+</head>
+<body>
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+        <div class="preloader-inner">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start 
+                            1. a 태그 내용 수정 asp-action="Index" asp-controller="Home" 으로
+                            2. 이미지 경로 수정! (assets/images/logo-icon.png) ***** -->
+                        <a asp-action="Index" asp-controller="Home" class="logo">
+                            <h4>IoT Portfolio <img src="~/iot2.png" alt=""></h4>
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <!-- style="font-family:'Nanum Gothic'" 이렇게 일일이 글자 스타일 넣어 줄 수 없으니까 cite.css에 폰트 클래스 만들고 class 안에 써주는 것-->
+                            <li class="scroll-to-section"><a asp-controller="Home" asp-action="Index" class="active nanum-bold">홈</a></li>
+                            @if (ViewData["NoScroll"] != "true")
+                            {
+                                <li class="scroll-to-section"><a href = "#features" class="nanum-bold">스킬</a></li>
+                                <li class="scroll-to-section"><a href = "#about" class="nanum-bold">소개</a></li>
+                                <li class="scroll-to-section"><a href = "#portfolio" class="nanum-bold">포트폴리오</a></li>
+                                <li class="scroll-to-section"><a href = "#contact" class="nanum-bold">문의하기</a></li>
+                            }
+                            <li class="scroll-to-section"><a asp-action="Index" asp-controller="Board" class="nanum-bold">공지사항</a></li>
+
+                            @if (signInManager.IsSignedIn(User))
+                            {
+                                @if (User.IsInRole("Admin"))
+                                {
+                                    <li class="scroll-to-section">
+                                        <a asp-controller="Admin" asp-action="ListRoles">권한관리</a>
+                                    </li>
+                                    <li class="scroll-to-section">
+                                        <a asp-controller="Portfolio" asp-action="Index">포폴관리</a>
+                                    </li>
+                                }
+                                <li class="scroll-to-section">
+                                    <a asp-controller="Account" asp-action="Profile"
+                                   asp-route-userName="@userManager.GetUserName(User)">프로필</a>
+                                </li>
+                                <li class="scroll-to-section">
+                                    <form asp-controller="Account" asp-action="Logout" method="post">
+                                        <button type="submit" class="btn btn-link nanum-bold">@userManager.GetUserName(User)</button>
+                                    </form>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="scroll-to-section">
+                                    <a asp-controller="Account" asp-action="Register">회원가입</a>
+                                </li>
+                                <li class="scroll-to-section">
+                                    <a asp-controller="Account" asp-action="Login">로그인</a>
+                                </li>
+                            }
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+    
+    <div>
+        <!-- RenderBody()는 필수임!!! /Views/Account, Admin, Board, Home 전부 다 -->
+        @RenderBody()
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>
+                        <!-- Copyright 부분 수정, 디자이너는 그대로 놔두는데 target만 추가함 -->
+                        Copyright © 2023 PKNU AC., Ltd. All Rights Reserved.
+
+                        <br>Web Designed by <a rel="nofollow" href="https://templatemo.com" target="_blank" title="free CSS templates">TemplateMo</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- jQuerty & Bootstrap HTML3 CDN 링크 // 기존 _Layout.cshtml에서 가져다쓰려고했는데 오류남 -->
+    <script src="~/themes/seo_dream/vendor/jquery/jquery.js"></script>
+    <script src="~/themes/seo_dream/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    @*<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+            crossorigin="anonymous"></script>*@
+    @*<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>*@
+
+    <!-- SEO Dream 테마를 위해서 개발자가 만든 js 경로만 수정 (assets/js/owl-carousel.js) -->
+    <script src="~/themes/seo_dream/assets/js/owl-carousel.js"></script>
+    <script src="~/themes/seo_dream/assets/js/animation.js"></script>
+    <script src="~/themes/seo_dream/assets/js/imagesloaded.js"></script>
+    <script src="~/themes/seo_dream/assets/js/custom.js"></script>
+
+    <!-- WYSIWYG 에디터용 js & 한국언어팩 // 기존 _Layout.cshtml에서 가져다씀 -->
+    <script src="~/lib/trumbowyg/trumbowyg.min.js"></script>
+    <script src="~/lib/trumbowyg/langs/ko.min.js"></script>
+    <!-- trumbowyg를 site.js에서 부르기때문에 상위에 trumbowyg에 관련된 js가 먼저 나와야함 // 기존 _Layout.cshtml에서 가져다씀 -->
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

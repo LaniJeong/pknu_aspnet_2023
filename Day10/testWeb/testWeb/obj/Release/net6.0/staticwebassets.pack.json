@@ -1,0 +1,1209 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\aspnet03_portfolioWebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\aspnet03_portfolioWebApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\iot.ico",
+      "PackagePath": "staticwebassets\\iot.ico"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\iot.png",
+      "PackagePath": "staticwebassets\\iot.png"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\iot2.png",
+      "PackagePath": "staticwebassets\\iot2.png"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\ar.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\ar.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\ar.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\ar.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\az.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\az.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\az.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\az.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\bg.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\bg.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\bg.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\bg.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\bn.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\bn.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\bn.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\bn.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\by.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\by.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\by.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\by.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\ca.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\ca.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\ca.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\ca.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\cs.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\cs.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\cs.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\cs.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\da.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\da.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\da.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\da.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\de.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\de.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\de.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\de.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\el.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\el.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\el.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\el.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\es.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\es.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\es.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\es.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\es_ar.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\es_ar.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\es_ar.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\es_ar.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\et.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\et.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\et.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\et.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\fa.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\fa.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\fa.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\fa.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\fi.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\fi.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\fi.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\fi.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\fr.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\fr.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\fr.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\fr.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\he.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\he.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\he.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\he.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\hr.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\hr.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\hr.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\hr.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\hu.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\hu.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\hu.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\hu.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\id.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\id.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\id.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\id.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\it.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\it.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\it.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\it.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\ja.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\ja.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\ja.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\ja.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\ko.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\ko.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\ko.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\ko.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\lt.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\lt.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\lt.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\lt.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\mn.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\mn.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\mn.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\mn.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\my.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\my.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\my.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\my.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\nb.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\nb.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\nb.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\nb.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\nl.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\nl.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\nl.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\nl.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\ph.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\ph.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\ph.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\ph.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\pl.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\pl.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\pl.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\pl.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\pt.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\pt.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\pt.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\pt.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\pt_br.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\pt_br.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\pt_br.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\pt_br.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\ro.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\ro.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\ro.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\ro.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\rs.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\rs.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\rs.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\rs.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\rs_latin.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\rs_latin.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\rs_latin.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\rs_latin.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\ru.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\ru.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\ru.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\ru.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\sk.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\sk.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\sk.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\sk.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\sl.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\sl.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\sl.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\sl.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\sq.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\sq.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\sq.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\sq.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\sv.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\sv.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\sv.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\sv.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\th.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\th.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\th.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\th.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\tr.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\tr.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\tr.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\tr.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\ua.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\ua.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\ua.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\ua.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\vi.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\vi.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\vi.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\vi.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\zh_cn.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\zh_cn.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\zh_cn.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\zh_cn.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\zh_tw.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\zh_tw.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\langs\\zh_tw.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\langs\\zh_tw.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\allowtagsfrompaste\\trumbowyg.allowtagsfrompaste.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\allowtagsfrompaste\\trumbowyg.allowtagsfrompaste.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\allowtagsfrompaste\\trumbowyg.allowtagsfrompaste.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\allowtagsfrompaste\\trumbowyg.allowtagsfrompaste.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\base64\\trumbowyg.base64.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\base64\\trumbowyg.base64.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\base64\\trumbowyg.base64.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\base64\\trumbowyg.base64.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\cleanpaste\\trumbowyg.cleanpaste.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\cleanpaste\\trumbowyg.cleanpaste.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\cleanpaste\\trumbowyg.cleanpaste.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\cleanpaste\\trumbowyg.cleanpaste.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\colors\\trumbowyg.colors.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\colors\\trumbowyg.colors.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\colors\\trumbowyg.colors.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\colors\\trumbowyg.colors.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\colors\\ui\\trumbowyg.colors.css",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\colors\\ui\\trumbowyg.colors.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\colors\\ui\\trumbowyg.colors.min.css",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\colors\\ui\\trumbowyg.colors.min.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\emoji\\trumbowyg.emoji.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\emoji\\trumbowyg.emoji.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\emoji\\trumbowyg.emoji.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\emoji\\trumbowyg.emoji.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\emoji\\ui\\trumbowyg.emoji.css",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\emoji\\ui\\trumbowyg.emoji.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\emoji\\ui\\trumbowyg.emoji.min.css",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\emoji\\ui\\trumbowyg.emoji.min.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\fontfamily\\trumbowyg.fontfamily.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\fontfamily\\trumbowyg.fontfamily.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\fontfamily\\trumbowyg.fontfamily.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\fontfamily\\trumbowyg.fontfamily.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\fontsize\\trumbowyg.fontsize.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\fontsize\\trumbowyg.fontsize.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\fontsize\\trumbowyg.fontsize.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\fontsize\\trumbowyg.fontsize.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\giphy\\trumbowyg.giphy.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\giphy\\trumbowyg.giphy.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\giphy\\trumbowyg.giphy.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\giphy\\trumbowyg.giphy.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\giphy\\ui\\trumbowyg.giphy.css",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\giphy\\ui\\trumbowyg.giphy.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\giphy\\ui\\trumbowyg.giphy.min.css",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\giphy\\ui\\trumbowyg.giphy.min.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\highlight\\trumbowyg.highlight.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\highlight\\trumbowyg.highlight.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\highlight\\trumbowyg.highlight.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\highlight\\trumbowyg.highlight.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\highlight\\ui\\trumbowyg.highlight.css",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\highlight\\ui\\trumbowyg.highlight.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\highlight\\ui\\trumbowyg.highlight.min.css",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\highlight\\ui\\trumbowyg.highlight.min.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\history\\trumbowyg.history.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\history\\trumbowyg.history.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\history\\trumbowyg.history.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\history\\trumbowyg.history.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\indent\\trumbowyg.indent.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\indent\\trumbowyg.indent.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\indent\\trumbowyg.indent.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\indent\\trumbowyg.indent.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\insertaudio\\trumbowyg.insertaudio.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\insertaudio\\trumbowyg.insertaudio.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\insertaudio\\trumbowyg.insertaudio.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\insertaudio\\trumbowyg.insertaudio.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\lineheight\\trumbowyg.lineheight.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\lineheight\\trumbowyg.lineheight.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\lineheight\\trumbowyg.lineheight.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\lineheight\\trumbowyg.lineheight.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\mathml\\trumbowyg.mathml.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\mathml\\trumbowyg.mathml.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\mathml\\trumbowyg.mathml.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\mathml\\trumbowyg.mathml.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\mathml\\ui\\trumbowyg.mathml.css",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\mathml\\ui\\trumbowyg.mathml.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\mathml\\ui\\trumbowyg.mathml.min.css",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\mathml\\ui\\trumbowyg.mathml.min.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\mention\\trumbowyg.mention.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\mention\\trumbowyg.mention.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\mention\\trumbowyg.mention.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\mention\\trumbowyg.mention.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\mention\\ui\\trumbowyg.mention.css",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\mention\\ui\\trumbowyg.mention.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\mention\\ui\\trumbowyg.mention.min.css",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\mention\\ui\\trumbowyg.mention.min.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\noembed\\trumbowyg.noembed.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\noembed\\trumbowyg.noembed.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\noembed\\trumbowyg.noembed.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\noembed\\trumbowyg.noembed.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\pasteembed\\trumbowyg.pasteembed.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\pasteembed\\trumbowyg.pasteembed.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\pasteembed\\trumbowyg.pasteembed.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\pasteembed\\trumbowyg.pasteembed.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\pasteimage\\trumbowyg.pasteimage.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\pasteimage\\trumbowyg.pasteimage.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\pasteimage\\trumbowyg.pasteimage.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\pasteimage\\trumbowyg.pasteimage.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\preformatted\\trumbowyg.preformatted.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\preformatted\\trumbowyg.preformatted.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\preformatted\\trumbowyg.preformatted.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\preformatted\\trumbowyg.preformatted.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\resizimg\\trumbowyg.resizimg.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\resizimg\\trumbowyg.resizimg.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\resizimg\\trumbowyg.resizimg.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\resizimg\\trumbowyg.resizimg.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\ruby\\trumbowyg.ruby.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\ruby\\trumbowyg.ruby.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\ruby\\trumbowyg.ruby.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\ruby\\trumbowyg.ruby.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\specialchars\\trumbowyg.specialchars.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\specialchars\\trumbowyg.specialchars.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\specialchars\\trumbowyg.specialchars.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\specialchars\\trumbowyg.specialchars.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\specialchars\\ui\\trumbowyg.specialchars.css",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\specialchars\\ui\\trumbowyg.specialchars.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\specialchars\\ui\\trumbowyg.specialchars.min.css",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\specialchars\\ui\\trumbowyg.specialchars.min.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\table\\trumbowyg.table.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\table\\trumbowyg.table.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\table\\trumbowyg.table.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\table\\trumbowyg.table.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\table\\ui\\trumbowyg.table.css",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\table\\ui\\trumbowyg.table.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\table\\ui\\trumbowyg.table.min.css",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\table\\ui\\trumbowyg.table.min.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\template\\trumbowyg.template.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\template\\trumbowyg.template.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\template\\trumbowyg.template.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\template\\trumbowyg.template.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\upload\\trumbowyg.upload.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\upload\\trumbowyg.upload.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\plugins\\upload\\trumbowyg.upload.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\plugins\\upload\\trumbowyg.upload.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\trumbowyg.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\trumbowyg.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\trumbowyg.min.js",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\trumbowyg.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\ui\\icons.svg",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\ui\\icons.svg"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\ui\\trumbowyg.css",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\ui\\trumbowyg.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\lib\\trumbowyg\\ui\\trumbowyg.min.css",
+      "PackagePath": "staticwebassets\\lib\\trumbowyg\\ui\\trumbowyg.min.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\css\\animated.css",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\css\\animated.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\css\\owl.css",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\css\\owl.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\css\\templatemo-seo-dream.css",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\css\\templatemo-seo-dream.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\fonts\\flexslider-icon.eot",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\fonts\\flexslider-icon.eot"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\fonts\\flexslider-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\fonts\\flexslider-icon.svg"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\fonts\\flexslider-icon.ttf",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\fonts\\flexslider-icon.ttf"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\fonts\\flexslider-icon.woff",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\fonts\\flexslider-icon.woff"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\fonts\\slick.eot"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\fonts\\slick.svg"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\fonts\\slick.woff"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\about-left-image.png",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\about-left-image.png"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\banner-dec-left.png",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\banner-dec-left.png"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\banner-dec-right.png",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\banner-dec-right.png"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\banner-right-image.png",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\banner-right-image.png"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\contact-bg.jpg",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\contact-bg.jpg"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\contact-icon-01.png",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\contact-icon-01.png"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\contact-icon-02.png",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\contact-icon-02.png"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\contact-icon-03.png",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\contact-icon-03.png"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\features-icon-black-01.png",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\features-icon-black-01.png"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\features-icon-black-02.png",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\features-icon-black-02.png"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\features-icon-white-01.png",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\features-icon-white-01.png"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\features-icon-white-02.png",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\features-icon-white-02.png"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\features-number-01.png",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\features-number-01.png"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\features-number-02.png",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\features-number-02.png"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\features-number-03.png",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\features-number-03.png"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\features-number-04.png",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\features-number-04.png"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\logo-icon.png",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\logo-icon.png"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\portfolio-01.jpg",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\portfolio-01.jpg"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\portfolio-02.jpg",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\portfolio-02.jpg"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\portfolio-03.jpg",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\portfolio-03.jpg"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\portfolio-04.jpg",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\portfolio-04.jpg"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\portfolio-05.jpg",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\portfolio-05.jpg"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\portfolio-06.jpg",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\portfolio-06.jpg"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\service-icon-01.png",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\service-icon-01.png"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\service-icon-02.png",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\service-icon-02.png"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\images\\service-icon-03.png",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\images\\service-icon-03.png"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\js\\animation.js",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\js\\animation.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\js\\imagesloaded.js",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\js\\imagesloaded.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\js\\isotope.js",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\js\\isotope.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\js\\owl-carousel.js",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\js\\owl-carousel.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\assets\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\assets\\js\\tabs.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\index.html",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\index.html"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\prepros.config",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\prepros.config"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\vendor\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\vendor\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\vendor\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\vendor\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\vendor\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\vendor\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\vendor\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\vendor\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\vendor\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\vendor\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\themes\\seo_dream\\vendor\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\themes\\seo_dream\\vendor\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\uploads\\08340960-d1ab-4ee1-a9bb-897a11a6e702_iot.png",
+      "PackagePath": "staticwebassets\\uploads\\08340960-d1ab-4ee1-a9bb-897a11a6e702_iot.png"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\uploads\\c11f2210-1acc-4fe5-b4cb-978eb897a779_KakaoTalk_20230307_113328310.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c11f2210-1acc-4fe5-b4cb-978eb897a779_KakaoTalk_20230307_113328310.jpg"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\uploads\\d6de409b-8476-443c-92c8-1d3ad3116f83_KakaoTalk_20230307_113328310.jpg",
+      "PackagePath": "staticwebassets\\uploads\\d6de409b-8476-443c-92c8-1d3ad3116f83_KakaoTalk_20230307_113328310.jpg"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\uploads\\e46818a9-7cb3-4289-ba36-71175c972e7b_iot.png",
+      "PackagePath": "staticwebassets\\uploads\\e46818a9-7cb3-4289-ba36-71175c972e7b_iot.png"
+    },
+    {
+      "Id": "C:\\Source\\pknu_aspnet2023\\Day09\\Day09_Web\\aspnet03_portfolioWebApp\\wwwroot\\uploads\\f6fc2e35-7650-49f1-89b4-a4ac89824bef_iot.png",
+      "PackagePath": "staticwebassets\\uploads\\f6fc2e35-7650-49f1-89b4-a4ac89824bef_iot.png"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.aspnet03_portfolioWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.aspnet03_portfolioWebApp.props",
+      "PackagePath": "build\\aspnet03_portfolioWebApp.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.aspnet03_portfolioWebApp.props",
+      "PackagePath": "buildMultiTargeting\\aspnet03_portfolioWebApp.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.aspnet03_portfolioWebApp.props",
+      "PackagePath": "buildTransitive\\aspnet03_portfolioWebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

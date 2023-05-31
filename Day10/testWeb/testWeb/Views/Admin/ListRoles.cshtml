@@ -1,0 +1,70 @@
+﻿@model IEnumerable<IdentityRole>
+@using Microsoft.AspNetCore.Authorization
+@inject IAuthorizationService iAuthorizationService
+@{
+    ViewData["Title"] = "권한 목록";
+    Layout = "~/Views/Shared/_NewLayout.cshtml";
+}
+
+<div class="mt-5" style="padding: 50px;">
+    <div class="container p-3">
+        <div class="row pt-4">
+            <div class="col-8">
+                <h4 class="text-primary">권한 목록</h4>
+            </div>
+            <div class="col-4 text-end">
+            </div>
+        </div>
+    </div>
+    <hr />
+
+    @*권한 목록 있으면*@
+    @if (Model.Any())
+    {
+        <a class="btn btn-sm btn-primary mb-3" asp-controller="Admin" asp-action="CreateRole">
+            <i class="bi bi-pin-angle"></i>&nbsp;권한생성
+        </a>
+
+        foreach (var role in Model)
+        {
+            <div class="card mb-3">
+                <div class="card-header">
+                    권한아이디 : @role.Id
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        @role.Name
+                    </h5>
+                </div>
+                <div class="card-footer">
+                    <form method="post" asp-action="DeleteRole" asp-route-id="@role.Id">
+                        <a class="btn btn-sm btn-primary" asp-action="EditRole" asp-controller="Admin" asp-route-id="@role.Id">
+                            <i class="bi bi-pencil-square"></i>&nbsp;권한편집
+                        </a>
+                        @* Admin/User 권한 삭제 불합리 => 주석처리!
+                <button type="submit" class="btn btn-sm btn-danger">
+                <span class="bi bi-trash3"></span>&nbsp;권한삭제
+                </button>*@
+                    </form>
+                </div>
+            </div>
+        }
+    }
+    @*권한 목록 없으면*@
+    else
+    {
+        <div class="card mb-3">
+            <div class="card-header">
+                권한 목록이 없습니다.
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">
+                    권한 생성 버튼을 누르세요.
+                </h5>
+                <a class="btn btn-sm btn-primary mb-3" asp-controller="Admin" asp-action="CreateRole">
+                    <i class="bi bi-pin-angle"></i>&nbsp;권한생성
+                </a>
+            </div>
+        </div>
+    }
+</div>

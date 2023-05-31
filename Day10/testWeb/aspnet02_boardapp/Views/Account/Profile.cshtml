@@ -1,0 +1,40 @@
+﻿@model aspnet02_boardapp.Models.RegisterModel
+@{
+    ViewData["Title"] = "프로필";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-4 m-auto">
+            <main class="form-signin w-100">
+                <form asp-action="Profile">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <img class="mb-4 m-auto" src="~/iot.png" alt="" width="72">
+                    <h1 class="h4 mb-3 fw-normal">프로필</h1>
+
+                    <div class="form-floating">
+                        <input asp-for="Email" type="email" class="form-control" placeholder="Email" readonly>
+                        <label asp-for="Email"></label>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating">
+                        <input asp-for="PhoneNumber" type="text" class="form-control" placeholder="PhoneNumber">
+                        <label asp-for="PhoneNumber"></label>
+                    </div>
+                    <div class="form-floating">
+                        <input asp-for="Password" type="password" class="form-control" placeholder="Password">
+                        <label asp-for="Password"></label>
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating">
+                        <input asp-for="ConfirmPassword" type="password" class="form-control" placeholder="ConfirmPassword">
+                        <label asp-for="ConfirmPassword"></label>
+                        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                    </div>
+
+                    <button class="w-100 btn btn-lg btn-primary" type="submit">프로필변경</button>
+                </form>
+            </main>
+        </div>
+    </div>
+</div>

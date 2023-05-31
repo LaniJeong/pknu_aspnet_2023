@@ -1,0 +1,52 @@
+﻿@model aspnet03_portfolioWebApp.Models.TempPortfolioModel  // PortfolioModel 사용하면 안됨!!
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Division" class="control-label"></label>
+                <input asp-for="Division" class="form-control" value="PORTFOLIO" readonly />
+                <span asp-validation-for="Division" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Url" class="control-label"></label>
+                <input asp-for="Url" class="form-control" />
+                <span asp-validation-for="Url" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PortfolioImage" class="control-label"></label>
+                <input asp-for="PortfolioImage" class="form-control" type="file" accept=".png, .jpg, .jpeg" />
+                <span asp-validation-for="PortfolioImage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

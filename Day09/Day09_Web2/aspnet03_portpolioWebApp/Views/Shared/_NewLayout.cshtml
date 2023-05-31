@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <!-- HTML은 대소문자구분이 없지만 대문자사용은 자제할 것! -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- meta name="description" content="">
+    <meta name="author" content="" -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <title>@ViewData["Title"] - IoT 포트폴리오 웹앱</title>
+    <!-- Bootstrap 5 CDN -->
+    <link rel="stylesheet" href="~/themes/seo_dream/vendor/bootstrap/css/bootstrap.min.css" />
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="~/themes/seo_dream/assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="~/themes/seo_dream/assets/css/templatemo-seo-dream.css" />
+    <link rel="stylesheet" href="~/themes/seo_dream/assets/css/animated.css" />
+    <link rel="stylesheet" href="~/themes/seo_dream/assets/css/owl.css" />
+    <!-- 기존 추가 CSS -->
+    <!-- WYSWYG 에디터 링크 -->
+    <link rel="stylesheet" href="~/lib/trumbowyg/ui/trumbowyg.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <!-- Toast 메시지창 js 라이브러리용 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+</head>
+<body>
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+        <div class="preloader-inner">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a asp-action="Index" asp-controller="Home" class="logo">
+                            <h4>IoT Portfolio <img src="~/iot2.png" alt=""></h4>
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a asp-controller="Home" asp-action="Index" class="active nanum-bold">홈</a></li>
+                            @if (ViewData["NoScroll"] != "true")
+                            {
+                                <li class="scroll-to-section"><a href="#features" class="nanum-bold">스킬</a></li>
+                                <li class="scroll-to-section"><a href="#about" class="nanum-bold">소개</a></li>
+                                <li class="scroll-to-section"><a href="#portfolio" class="nanum-bold">포트폴리오</a></li>
+                                <li class="scroll-to-section"><a href="#contact" class="nanum-bold">문의하기</a></li>
+                            }
+                            <li class="scroll-to-section"><a asp-action="Index" asp-controller="Board" class="nanum-bold">공지사항</a></li>
+                            @*<li class="scroll-to-section"><div class="main-blue-button"><a href="#contact">Get Your Quote</a></div></li>*@
+                            @if (signInManager.IsSignedIn(User))
+                            {
+                                @if (User.IsInRole("Admin"))
+                                {
+                                    <li class="scroll-to-section">
+                                        <a asp-controller="Admin" asp-action="ListRoles">권한관리</a>
+                                    </li>
+                                    <li class="scroll-to-section">
+                                        <a asp-controller="Portfolio" asp-action="Index">포폴관리</a>
+                                    </li>
+                                }
+                                <li class="scroll-to-section">
+                                    <a asp-controller="Account" asp-action="Profile"
+                                   asp-route-userName="@userManager.GetUserName(User)">프로필</a>
+                                </li>
+                                <li class="scroll-to-section">
+                                    <form asp-controller="Account" asp-action="Logout" method="post">
+                                        <button type="submit" class="btn btn-link nanum-bold">@userManager.GetUserName(User)</button>
+                                    </form>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="scroll-to-section">
+                                    <a asp-controller="Account" asp-action="Register">회원가입</a>
+                                </li>
+                                <li class="scroll-to-section">
+                                    <a asp-controller="Account" asp-action="Login">로그인</a>
+                                </li>
+                            }
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+    <div>
+        <!-- 필수! -->
+        @RenderBody()
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>
+                        Copyright © 2023 PKNU AC., Ltd. All Rights Reserved.
+
+                        <br>Web Designed by <a rel="nofollow" href="https://templatemo.com" target="_blank" title="free CSS templates">TemplateMo</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <!-- jQuery & Bootstrap CND LINKs -->
+    <script src="~/themes/seo_dream/vendor/jquery/jquery.js"></script>
+    <script src="~/themes/seo_dream/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- SEO Dream 테마를 위해서 개발자 만든 js -->
+    <script src="~/themes/seo_dream/assets/js/owl-carousel.js"></script>
+    <script src="~/themes/seo_dream/assets/js/animation.js"></script>
+    <script src="~/themes/seo_dream/assets/js/imagesloaded.js"></script>
+    <script src="~/themes/seo_dream/assets/js/custom.js"></script>
+    <!-- WYSWYG 에디터용 js & 한국어언어팩 js -->
+    <script src="~/lib/trumbowyg/trumbowyg.min.js"></script>
+    <script src="~/lib/trumbowyg/langs/ko.min.js"></script>
+    <!-- trumbowyg를 site.js에서 부르기때문에 상위에 trumbowyg에 관련된 js가 먼저 나와야.. -->
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
