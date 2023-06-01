@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\source\\pknu_aspnet_2023\\Day10\\testWeb\\testWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\aspnet03_portfolioWebApp.bundle.scp.css",
-      "PackagePath": "staticwebassets\\aspnet03_portfolioWebApp.bundle.scp.css"
-    },
-    {
       "Id": "C:\\source\\pknu_aspnet_2023\\Day10\\testWeb\\testWeb\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },

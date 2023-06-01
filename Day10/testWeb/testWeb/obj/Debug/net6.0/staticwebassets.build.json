@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ibkxqjIAMtz1mdx609HHlqTiOaTLlZ3Ur2J4gnyobaQ=",
+  "Hash": "TT0O5dgicnj0Qy5Coe4Q3yyIfBqlGRqWlXzRYvcO1PI=",
   "Source": "aspnet03_portfolioWebApp",
   "BasePath": "_content/aspnet03_portfolioWebApp",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\source\\pknu_aspnet_2023\\Day10\\testWeb\\testWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\aspnet03_portfolioWebApp.styles.css",
-      "SourceId": "aspnet03_portfolioWebApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\source\\pknu_aspnet_2023\\Day10\\testWeb\\testWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/aspnet03_portfolioWebApp",
-      "RelativePath": "aspnet03_portfolioWebApp.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\source\\pknu_aspnet_2023\\Day10\\testWeb\\testWeb\\obj\\Debug\\net6.0\\scopedcss\\bundle\\aspnet03_portfolioWebApp.styles.css"
-    },
-    {
-      "Identity": "C:\\source\\pknu_aspnet_2023\\Day10\\testWeb\\testWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\aspnet03_portfolioWebApp.bundle.scp.css",
-      "SourceId": "aspnet03_portfolioWebApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\source\\pknu_aspnet_2023\\Day10\\testWeb\\testWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/aspnet03_portfolioWebApp",
-      "RelativePath": "aspnet03_portfolioWebApp.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\source\\pknu_aspnet_2023\\Day10\\testWeb\\testWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\aspnet03_portfolioWebApp.bundle.scp.css"
-    },
     {
       "Identity": "C:\\source\\pknu_aspnet_2023\\Day10\\testWeb\\testWeb\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "aspnet03_portfolioWebApp",
